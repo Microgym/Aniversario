@@ -1,21 +1,16 @@
-RINFRESCO · ZONA EXTERNA CON SOCIOS Y EQUIPO · V2
+RINFRESCO · MOMENTOS DEL EQUIPO
 
-Cambio añadido en 20anos.html:
-- Se incorpora que actualmente Rinfresco comercializa perfumería,
-  alimentación, droguería y, por supuesto, bebidas.
-- También se refleja en el hito de 2026.
+Sube al directorio raíz del repositorio:
+- momentos.html
+- la carpeta completa "momentos"
+- logo20.png solo si no lo tienes ya en la raíz
 
-Subir al directorio raíz:
-- 20anos.html
-- clientes.html
-- proveedores.html
-- miguel.jpg
-- alberto.jpg
-- equipo_rinfresco_2026.jpg
-- cash_valencia.jpg
-- almacen.jpg
+La página termina con un botón que vuelve a index.html.
 
-logo20.png ya debe existir en el repositorio.
+URL una vez subida:
+https://microgym.github.io/Aniversario/momentos.html
 
-clientes.html y proveedores.html solo enlazan a 20anos.html.
-No dan acceso a index.html.
+IMPORTANTE:
+Este paquete NO modifica index.html automáticamente.
+Si quieres un botón desde la historia principal hacia esta galería,
+puedo prepararte el index.html con “Ver nuestros momentos →”.
