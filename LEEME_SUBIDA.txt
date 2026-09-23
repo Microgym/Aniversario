@@ -1,0 +1,19 @@
+RINFRESCO · ZONA EXTERNA DEL 20º ANIVERSARIO
+
+Subir al directorio raíz del repositorio:
+- 20anos.html
+- clientes.html
+- proveedores.html
+- cash_valencia.jpg
+- almacen.jpg
+
+El archivo logo20.png ya debe existir en el repositorio.
+
+IMPORTANTE:
+clientes.html y proveedores.html ya NO enlazan a index.html.
+Ahora ambos enlazan exclusivamente a 20anos.html.
+
+URLs:
+https://microgym.github.io/Aniversario/clientes.html
+https://microgym.github.io/Aniversario/proveedores.html
+https://microgym.github.io/Aniversario/20anos.html
