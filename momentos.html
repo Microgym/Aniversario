@@ -221,7 +221,7 @@ h2{font-size:clamp(38px,7vw,66px);line-height:1;letter-spacing:-.045em;color:var
     <div class="kicker">20 años de Rinfresco</div>
     <h2>Y todavía quedan muchas fotos por hacer.</h2>
     <p>Estas imágenes no cuentan toda la historia. Pero sí cuentan algo importante: detrás de Rinfresco siempre ha habido personas compartiendo mucho más que trabajo.</p>
-    <a class="btn" href="index.html">← Volver a nuestra historia</a>
+    <a class="btn" id="backToHistory" href="index.html">← Volver a nuestra historia</a>
   </div>
 </section>
 
@@ -250,5 +250,23 @@ box.addEventListener('click', e => { if(e.target === box) closeBox(); });
 document.querySelector('.lightbox-close').addEventListener('click', closeBox);
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeBox(); });
 </script>
+
+<script>
+(function(){
+  const employees = new Set([
+    'vero','rita','ana','arnau','eva','gemma',
+    'laura','nacho','amparo','cristina','horten','tamara'
+  ]);
+
+  const params = new URLSearchParams(window.location.search);
+  const from = params.get('from');
+  const historyBtn = document.getElementById('backToHistory');
+
+  if (historyBtn && from && employees.has(from)) {
+    historyBtn.href = 'index.html?from=' + encodeURIComponent(from);
+  }
+})();
+</script>
+
 </body>
 </html>

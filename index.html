@@ -73,7 +73,7 @@
  .moments-link{top:auto;right:10px;bottom:12px;padding:10px 13px;font-size:13px}
 }
 
-</style></head><body><a href="#" id="backToEmployee" class="back-home">← Volver a mi página</a><a href="momentos.html" class="moments-link">Ver nuestros momentos →</a>
+</style></head><body><a href="#" id="backToEmployee" class="back-home">← Volver a mi página</a><a href="momentos.html" id="momentsLink" class="moments-link">Ver nuestros momentos →</a>
 <header class="cover"><div class="wrap"><img alt="Rinfresco 20 años" class="logo" src="logo20.png"/><div class="ey gold" style="margin-top:36px">2006 — 2026</div><h1>20 AÑOS<br/>DE RINFRESCO</h1><div class="goldline"></div><p class="lead">Nuestra historia.</p><p class="body">Un nombre nacido de un error. 40.000 euros. Oficinas, decisiones, anécdotas y, sobre todo, personas.</p></div></header>
 <section class="founders20" id="fundadores">
 <div class="fwrap">
@@ -139,31 +139,30 @@ function toggleComic2046(btn){
 </script>
 <script>
 (function(){
-  const btn = document.getElementById('backToEmployee');
-  if(!btn) return;
+  const employees = new Set([
+    'vero','rita','ana','arnau','eva','gemma',
+    'laura','nacho','amparo','cristina','horten','tamara'
+  ]);
 
-  const ref = document.referrer || '';
-  const currentHost = location.host;
-  const employeePages = [
-    'vero.html','rita.html','ana.html','arnau.html','eva.html','gemma.html',
-    'laura.html','nacho.html','amparo.html','cristina.html','horten.html','tamara.html',
-    'momentos.html'
-  ];
+  const params = new URLSearchParams(window.location.search);
+  const from = params.get('from');
 
-  try {
-    const url = new URL(ref);
-    const page = url.pathname.split('/').pop();
-    if (url.host === currentHost && employeePages.includes(page)) {
-      btn.href = ref;
-      btn.classList.add('show');
-      btn.addEventListener('click', function(e){
-        if (history.length > 1) {
-          e.preventDefault();
-          history.back();
-        }
-      });
+  const backBtn = document.getElementById('backToEmployee');
+  const momentsLink = document.getElementById('momentsLink');
+
+  if (from && employees.has(from)) {
+    if (backBtn) {
+      backBtn.href = from + '.html';
+      backBtn.classList.add('show');
+      backBtn.textContent = '← Volver a mi página';
     }
-  } catch(e) {}
+    if (momentsLink) {
+      momentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
+    }
+  } else {
+    if (backBtn) backBtn.classList.remove('show');
+    if (momentsLink) momentsLink.href = 'momentos.html';
+  }
 })();
 </script>
 
