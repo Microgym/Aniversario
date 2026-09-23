@@ -46,10 +46,14 @@ p{font-size:18px;line-height:1.75;color:#4f596b}
 .close{text-align:center;background:#fff}
 .close p{max-width:760px;margin:0 auto 28px}
 .btn{display:inline-block;text-decoration:none;background:var(--blue);color:#fff;padding:16px 26px;border-radius:999px;font-weight:850}
-@media(max-width:760px){.timeline,.gallery,.duo,.founders{grid-template-columns:1fr}.photo img{height:300px}}
+.backbar{position:fixed;left:18px;top:18px;z-index:50}
+.backbtn{display:inline-block;text-decoration:none;background:rgba(19,39,91,.92);color:#fff;padding:11px 16px;border-radius:999px;font-weight:800;box-shadow:0 8px 24px rgba(19,39,91,.18);backdrop-filter:blur(8px)}
+.bottomnav{text-align:center;padding-top:18px}
+@media(max-width:760px){.timeline,.gallery,.duo,.founders{grid-template-columns:1fr}.photo img{height:300px}.backbar{left:12px;top:12px}.backbtn{padding:10px 14px;font-size:14px}}
 </style>
 </head>
 <body>
+<div class="backbar"><a id="backLink" class="backbtn" href="clients.html">← Back</a></div>
 <header class="hero">
   <div>
     <img src="logo20.png" class="logo" alt="20 years of Rinfresco">
@@ -152,5 +156,28 @@ p{font-size:18px;line-height:1.75;color:#4f596b}
     <p>We continue with the same ambition: to grow, create opportunities and build lasting business relationships.</p>
   </div>
 </section>
+<div class="bottomnav"><a id="backLinkBottom" class="backbtn" href="clients.html">← Back</a></div>
+<script>
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const from = params.get('from');
+  let href = 'clients.html';
+  let label = '← Back to customers';
+  if (from === 'suppliers') {
+    href = 'suppliers.html';
+    label = '← Back to suppliers';
+  } else if (from === 'clients') {
+    href = 'clients.html';
+    label = '← Back to customers';
+  } else if (document.referrer.includes('suppliers.html')) {
+    href = 'suppliers.html';
+    label = '← Back to suppliers';
+  }
+  for (const id of ['backLink','backLinkBottom']) {
+    const el = document.getElementById(id);
+    if (el) { el.href = href; el.textContent = label; }
+  }
+})();
+</script>
 </body>
 </html>
