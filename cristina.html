@@ -16,7 +16,19 @@ h2{font-size:clamp(38px,10vw,62px);line-height:1.03;letter-spacing:-.045em;margi
 .signature small{font-family:Inter,system-ui,sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#9a7a28}.center{text-align:center}
 button,.btn{display:inline-block;border:0;border-radius:999px;padding:16px 24px;font:inherit;font-weight:800;background:var(--blue);color:#fff;cursor:pointer;text-decoration:none}
 .bridge img{width:112px}.bridge{text-align:center}footer{padding:40px 24px;text-align:center;color:#667085;font-size:12px}
-@media(min-width:760px){section{padding:100px 32px}.paper{padding:55px}.heroCopy{padding:64px}.logo{top:36px;left:36px;width:112px;height:112px}}</style></head><body>
+@media(min-width:760px){section{padding:100px 32px}.paper{padding:55px}.heroCopy{padding:64px}.logo{top:36px;left:36px;width:112px;height:112px}}
+.future2046{text-align:center;background:#fff;padding-top:95px;padding-bottom:95px}
+.future2046 .futureImg{display:none;margin:36px auto 0;max-width:1180px;padding:0 18px}
+.future2046 .futureImg.open{display:block}
+.future2046 .futureImg img{display:block;width:100%;height:auto;border-radius:18px;box-shadow:0 18px 55px rgba(19,39,91,.14)}
+.future2046 .futureNote{font-size:13px;line-height:1.6;color:#8a8f9b;margin-top:18px}
+@media(max-width:650px){
+  .future2046{padding-top:72px;padding-bottom:72px}
+  .future2046 .futureImg{padding:0 12px}
+  .future2046 .futureImg img{border-radius:12px}
+}
+
+</style></head><body>
 <header class="hero"><img class="photo" src="cristina.jpg" alt="Cristina"><div class="shade"></div><img class="logo" src="logo20.png" alt="Rinfresco 20 años"><div class="heroCopy"><div class="ey">20 años · 14 personas · 14 historias</div><h1>CRISTINA</h1><div class="goldline"></div><p>Esta no es la historia de Rinfresco.</p><p><strong>Es tu historia dentro de ella.</strong></p></div></header>
 <section><div class="wrap"><div class="ey gold">Tu recorrido</div><h2>Poco tiempo. Mucho orden. Y una sensación clara de haber acertado.</h2><p class="body">Desde el 8 de junio estás al frente del tráfico de nuestra mercancía. No hemos necesitado mucho más tiempo para comprobar el valor de tu trabajo y tu seriedad.</p></div></section>
 
@@ -27,6 +39,30 @@ button,.btn{display:inline-block;border:0;border-radius:999px;padding:16px 24px;
 <p>Llevas muy poco tiempo con nosotros, desde el 8 de junio; pero no hemos necesitado mucho más tiempo para darnos cuenta de que ponerte al frente del tráfico de nuestra mercancía ha sido todo un acierto. Probablemente sea lo que más nos ha costado organizar y, gracias a tu trabajo y seriedad, lo estamos haciendo en menos tiempo del que creíamos.</p>
 <p>Nos aportas la profesionalidad y la seriedad que muchas veces echábamos de menos. Por eso, queremos darte las gracias por haber apostado por Rinfresco.</p>
 <p>Un abrazo,</p><div class="signature">Miguel y Alberto<br><small>20 años de Rinfresco · 2026</small></div></article></div></section>
+
+<section class="future2046">
+  <div class="wrap">
+    <div class="ey gold">Una última sorpresa</div>
+    <h2>¿Y DENTRO DE<br>20 AÑOS?</h2>
+    <p class="body">No podemos saber cómo será 2046. Pero sí podemos imaginarnos una cosa: Cristina, con veinte años más de historias.</p>
+    <button onclick="toggleFuture('cristina2046',this)">Descubrirme en 2046 →</button>
+  </div>
+  <div id="cristina2046" class="futureImg">
+    <img src="cristina_2046.png" alt="Cristina · recreación artística 2046">
+    <p class="futureNote">Recreación artística de cómo podrías verte en 2046.</p>
+  </div>
+</section>
+
 <section class="bridge"><div class="wrap"><img src="logo20.png" alt="Rinfresco 20 años"><h2>Gracias, Cristina.</h2><p class="body">Esta es tu historia. Una de las historias que explican cómo hemos llegado hasta aquí.</p><div class="goldline" style="margin:38px auto"></div><p class="lead">Pero hay una historia más grande. La nuestra.</p><a class="btn" href="index.html">20 AÑOS DE RINFRESCO →</a></div></section>
 <footer>RINFRESCO · 20º ANIVERSARIO · 2006—2026</footer>
-<script>function toggleLetter(b){const x=document.getElementById('letter');x.classList.toggle('open');b.textContent=x.classList.contains('open')?'Cerrar carta':'Abrir mi carta ↓';if(x.classList.contains('open'))setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80)}</script></body></html>
+<script>function toggleLetter(b){const x=document.getElementById('letter');x.classList.toggle('open');b.textContent=x.classList.contains('open')?'Cerrar carta':'Abrir mi carta ↓';if(x.classList.contains('open'))setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80)}</script>
+<script>
+function toggleFuture(id,b){
+  const x=document.getElementById(id);
+  const open=x.classList.toggle('open');
+  b.textContent=open?'Ocultar 2046 ↑':'Descubrirme en 2046 →';
+  if(open) setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80);
+}
+</script>
+
+</body></html>

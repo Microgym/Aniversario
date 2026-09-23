@@ -1,0 +1,17 @@
+RINFRESCO · PÁGINAS 2046
+
+SUBIR AL DIRECTORIO RAÍZ DEL REPOSITORIO:
+- Los 12 archivos .html, sustituyendo los actuales.
+- Las 12 imágenes *_2046.png.
+
+NO BORRAR:
+- index.html
+- logo20.png
+- las fotos actuales de cada empleado (.jpg)
+- el resto de archivos ya existentes.
+
+Después de subir, cada página tendrá:
+¿Y DENTRO DE 20 AÑOS?
+[ DESCUBRIRME EN 2046 → ]
+
+y al pulsar se desplegará la imagen correspondiente.

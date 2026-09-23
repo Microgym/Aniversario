@@ -19,6 +19,18 @@ h1{font-size:clamp(60px,17vw,116px);line-height:.88;margin:14px 0;letter-spacing
 .center{text-align:center}button,.btn{display:inline-block;border:0;border-radius:999px;padding:16px 24px;font:inherit;font-weight:800;background:var(--blue);color:#fff;cursor:pointer;text-decoration:none}
 .bridge img{width:112px}.bridge{text-align:center}footer{padding:40px 24px;text-align:center;color:#667085;font-size:12px}
 @media(min-width:760px){section{padding:100px 32px}.paper{padding:55px}.heroCopy{padding:64px}.logo{top:36px;left:36px;width:112px;height:112px}}
+
+.future2046{text-align:center;background:#fff;padding-top:95px;padding-bottom:95px}
+.future2046 .futureImg{display:none;margin:36px auto 0;max-width:1180px;padding:0 18px}
+.future2046 .futureImg.open{display:block}
+.future2046 .futureImg img{display:block;width:100%;height:auto;border-radius:18px;box-shadow:0 18px 55px rgba(19,39,91,.14)}
+.future2046 .futureNote{font-size:13px;line-height:1.6;color:#8a8f9b;margin-top:18px}
+@media(max-width:650px){
+  .future2046{padding-top:72px;padding-bottom:72px}
+  .future2046 .futureImg{padding:0 12px}
+  .future2046 .futureImg img{border-radius:12px}
+}
+
 </style></head><body>
 <header class="hero"><img class="photo" src="laura.jpg" alt="Laura"><div class="shade"></div><img class="logo" src="logo20.png" alt="Rinfresco 20 años"><div class="heroCopy"><div class="ey">20 años · 14 personas · 14 historias</div><h1>LAURA</h1><div class="goldline"></div><p>Esta no es la historia de Rinfresco.</p><p><strong>Es tu historia dentro de ella.</strong></p></div></header>
 <section><div class="wrap"><div class="ey gold">Tu recorrido</div><h2>Cambiar, adaptarse y seguir aportando sin perder la sonrisa.</h2><p class="body">Apoyo comercial, compras y ahora logística. Muchos cambios en poco tiempo, siempre buscando que el proceso siga avanzando.</p></div></section>
@@ -31,6 +43,30 @@ h1{font-size:clamp(60px,17vw,116px);line-height:.88;margin:14px 0;letter-spacing
 <p>Empezaste dando apoyo comercial a Alberto, luego al departamento de compras y ahora en tu función de logística, labor fundamental para que todo nuestro proceso no se frene. Sabemos que han sido muchos cambios en poco tiempo, pero siempre con la idea de poder estructurarnos de la mejor manera posible. Pero más allá de las funciones, lo que realmente te define es tu trato humano, tu alegría y tu forma cercana de relacionarte con los demás.</p>
 <p>Quiero también reconocer tu fortaleza personal en momentos tan complicados como la DANA; has sabido seguir adelante con entereza, sin perder tu sonrisa ni tus ganas de aportar. Esa capacidad de mantenerse firme y positiva incluso en los momentos difíciles dice mucho de la persona que eres.</p>
 <p>Gracias por tu trabajo y por tu constancia.</p><p>Un abrazo,</p><div class="signature">Miguel y Alberto<br><small>20 años de Rinfresco · 2026</small></div></article></div></section>
+
+<section class="future2046">
+  <div class="wrap">
+    <div class="ey gold">Una última sorpresa</div>
+    <h2>¿Y DENTRO DE<br>20 AÑOS?</h2>
+    <p class="body">No podemos saber cómo será 2046. Pero sí podemos imaginarnos una cosa: Laura, con veinte años más de historias.</p>
+    <button onclick="toggleFuture('laura2046',this)">Descubrirme en 2046 →</button>
+  </div>
+  <div id="laura2046" class="futureImg">
+    <img src="laura_2046.png" alt="Laura · recreación artística 2046">
+    <p class="futureNote">Recreación artística de cómo podrías verte en 2046.</p>
+  </div>
+</section>
+
 <section class="bridge"><div class="wrap"><img src="logo20.png" alt="Rinfresco 20 años"><h2>Gracias, Laura.</h2><p class="body">Esta es tu historia. Una de las historias que explican cómo hemos llegado hasta aquí.</p><div class="goldline" style="margin:38px auto"></div><p class="lead">Pero hay una historia más grande. La nuestra.</p><a class="btn" href="index.html">20 AÑOS DE RINFRESCO →</a></div></section>
 <footer>RINFRESCO · 20º ANIVERSARIO · 2006—2026</footer>
-<script>function toggleLetter(b){const x=document.getElementById('letter');x.classList.toggle('open');b.textContent=x.classList.contains('open')?'Cerrar carta':'Abrir mi carta ↓';if(x.classList.contains('open'))setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80)}</script></body></html>
+<script>function toggleLetter(b){const x=document.getElementById('letter');x.classList.toggle('open');b.textContent=x.classList.contains('open')?'Cerrar carta':'Abrir mi carta ↓';if(x.classList.contains('open'))setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80)}</script>
+<script>
+function toggleFuture(id,b){
+  const x=document.getElementById(id);
+  const open=x.classList.toggle('open');
+  b.textContent=open?'Ocultar 2046 ↑':'Descubrirme en 2046 →';
+  if(open) setTimeout(()=>x.scrollIntoView({behavior:'smooth',block:'start'}),80);
+}
+</script>
+
+</body></html>
