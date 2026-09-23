@@ -1,14 +1,15 @@
-RINFRESCO · MOMENTOS DEL EQUIPO · V2
+RINFRESCO · MOMENTOS DEL EQUIPO · V3
 
-NOVEDAD:
-- Añadida sección “La siguiente generación”.
-- Incluye las dos nuevas fotos de los peques.
-- Texto principal: “La cantera ya va formándose.”
+Esta versión evita carpetas para que GitHub sea más sencillo.
 
-Sube al directorio raíz del repositorio:
+SUBE TODO AL DIRECTORIO RAÍZ DEL REPOSITORIO:
 - momentos.html
-- la carpeta completa "momentos"
-- logo20.png solo si no lo tienes ya en la raíz
+- todos los .jpg de este paquete
+- logo20.png solo si no lo tienes ya
+
+IMPORTANTE:
+No hace falta crear una carpeta "momentos".
+Todas las fotos deben quedar al mismo nivel que index.html y momentos.html.
 
 URL:
 https://microgym.github.io/Aniversario/momentos.html
