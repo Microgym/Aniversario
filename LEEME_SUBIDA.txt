@@ -1,19 +1,21 @@
-RINFRESCO · ZONA EXTERNA DEL 20º ANIVERSARIO
+RINFRESCO · ZONA EXTERNA CON SOCIOS Y EQUIPO
 
-Subir al directorio raíz del repositorio:
+Subir al directorio raíz:
 - 20anos.html
 - clientes.html
 - proveedores.html
+- miguel.jpg
+- alberto.jpg
+- equipo_rinfresco_2026.jpg
 - cash_valencia.jpg
 - almacen.jpg
 
-El archivo logo20.png ya debe existir en el repositorio.
+logo20.png ya debe existir en el repositorio.
 
 IMPORTANTE:
-clientes.html y proveedores.html ya NO enlazan a index.html.
-Ahora ambos enlazan exclusivamente a 20anos.html.
+La foto del equipo es una composición provisional hecha con los retratos actuales.
+Cuando tengáis la foto oficial de los 14, bastará con sustituir
+equipo_rinfresco_2026.jpg manteniendo el mismo nombre.
 
-URLs:
-https://microgym.github.io/Aniversario/clientes.html
-https://microgym.github.io/Aniversario/proveedores.html
-https://microgym.github.io/Aniversario/20anos.html
+clientes.html y proveedores.html solo enlazan a 20anos.html.
+No dan acceso a index.html.
