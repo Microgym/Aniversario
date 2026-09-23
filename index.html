@@ -47,7 +47,33 @@
   .future-comic .intro{font-size:16px}
   .future-comic img{border-radius:12px}
 }
-</style></head><body>
+
+.back-home{
+ position:fixed;top:16px;left:16px;z-index:9999;
+ display:none;text-decoration:none;
+ background:rgba(19,39,91,.92);color:#fff;
+ padding:11px 16px;border-radius:999px;
+ font-weight:800;font-size:14px;
+ box-shadow:0 8px 24px rgba(0,0,0,.16);
+ backdrop-filter:blur(8px)
+}
+.back-home.show{display:inline-block}
+@media(max-width:640px){.back-home{top:10px;left:10px;padding:10px 13px;font-size:13px}}
+
+
+.moments-link{
+ position:fixed;top:16px;right:16px;z-index:9999;
+ display:inline-block;text-decoration:none;
+ background:#d4a82f;color:#13275b;
+ padding:11px 16px;border-radius:999px;
+ font-weight:800;font-size:14px;
+ box-shadow:0 8px 24px rgba(0,0,0,.12)
+}
+@media(max-width:640px){
+ .moments-link{top:auto;right:10px;bottom:12px;padding:10px 13px;font-size:13px}
+}
+
+</style></head><body><a href="#" id="backToEmployee" class="back-home">← Volver a mi página</a><a href="momentos.html" class="moments-link">Ver nuestros momentos →</a>
 <header class="cover"><div class="wrap"><img alt="Rinfresco 20 años" class="logo" src="logo20.png"/><div class="ey gold" style="margin-top:36px">2006 — 2026</div><h1>20 AÑOS<br/>DE RINFRESCO</h1><div class="goldline"></div><p class="lead">Nuestra historia.</p><p class="body">Un nombre nacido de un error. 40.000 euros. Oficinas, decisiones, anécdotas y, sobre todo, personas.</p></div></header>
 <section class="founders20" id="fundadores">
 <div class="fwrap">
@@ -110,4 +136,35 @@ function toggleComic2046(btn){
   btn.textContent=open?'Ocultar Rinfresco 2046 ↑':'Ver Rinfresco 2046 →';
   if(open){ setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),80); }
 }
-</script></body></html>
+</script>
+<script>
+(function(){
+  const btn = document.getElementById('backToEmployee');
+  if(!btn) return;
+
+  const ref = document.referrer || '';
+  const currentHost = location.host;
+  const employeePages = [
+    'vero.html','rita.html','ana.html','arnau.html','eva.html','gemma.html',
+    'laura.html','nacho.html','amparo.html','cristina.html','horten.html','tamara.html',
+    'momentos.html'
+  ];
+
+  try {
+    const url = new URL(ref);
+    const page = url.pathname.split('/').pop();
+    if (url.host === currentHost && employeePages.includes(page)) {
+      btn.href = ref;
+      btn.classList.add('show');
+      btn.addEventListener('click', function(e){
+        if (history.length > 1) {
+          e.preventDefault();
+          history.back();
+        }
+      });
+    }
+  } catch(e) {}
+})();
+</script>
+
+</body></html>
