@@ -145,7 +145,19 @@ function toggleComic2046(btn){
   ]);
 
   const params = new URLSearchParams(window.location.search);
-  const from = params.get('from');
+  let from = params.get('from');
+
+  // Respaldo para móviles/caché: si falta ?from=, detectar
+  // si se ha llegado directamente desde una página personal.
+  if (!from) {
+    try {
+      const ref = new URL(document.referrer);
+      if (ref.host === window.location.host) {
+        const page = ref.pathname.split('/').pop().replace('.html','');
+        if (employees.has(page)) from = page;
+      }
+    } catch(e) {}
+  }
 
   const backBtn = document.getElementById('backToEmployee');
   const momentsLink = document.getElementById('momentsLink');
