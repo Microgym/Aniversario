@@ -1,15 +1,27 @@
-RINFRESCO · MOMENTOS DEL EQUIPO · V3
+RINFRESCO · EMPLEADOS + MOMENTOS
 
-Esta versión evita carpetas para que GitHub sea más sencillo.
+CAMBIO:
+Las 12 páginas personales tienen ahora, al final, dos botones:
+- “Entrar en nuestra historia →”
+- “Ver nuestros momentos →”
 
-SUBE TODO AL DIRECTORIO RAÍZ DEL REPOSITORIO:
-- momentos.html
-- todos los .jpg de este paquete
-- logo20.png solo si no lo tienes ya
+El segundo botón abre momentos.html.
 
-IMPORTANTE:
-No hace falta crear una carpeta "momentos".
-Todas las fotos deben quedar al mismo nivel que index.html y momentos.html.
+SUBE / REEMPLAZA EN LA RAÍZ DEL REPOSITORIO:
+- vero.html
+- rita.html
+- ana.html
+- arnau.html
+- eva.html
+- gemma.html
+- laura.html
+- nacho.html
+- amparo.html
+- cristina.html
+- horten.html
+- tamara.html
 
-URL:
-https://microgym.github.io/Aniversario/momentos.html
+Si momentos.html y sus fotos ya están subidos y funcionan, NO hace falta volver a subirlos.
+Si no, este paquete también los incluye.
+
+No se modifica index.html.
