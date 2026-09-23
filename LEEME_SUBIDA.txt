@@ -1,14 +1,25 @@
-RINFRESCO · EMPLEADOS + MOMENTOS
+RINFRESCO · NAVEGACIÓN CORREGIDA
 
-CAMBIO:
-Las 12 páginas personales tienen ahora, al final, dos botones:
-- “Entrar en nuestra historia →”
-- “Ver nuestros momentos →”
+ESTE PAQUETE CORRIGE EL FALLO DE “VOLVER A MI PÁGINA”.
 
-El segundo botón abre momentos.html.
+YA NO SE USA EL HISTORIAL DEL NAVEGADOR.
+Ahora cada empleado viaja con su identidad en la URL:
 
-SUBE / REEMPLAZA EN LA RAÍZ DEL REPOSITORIO:
-- vero.html
+rita.html
+→ index.html?from=rita
+→ momentos.html?from=rita
+→ index.html?from=rita
+→ rita.html
+
+Por tanto, “Volver a mi página” vuelve SIEMPRE a la página personal correcta,
+aunque el empleado haya pasado antes por Momentos.
+
+VERO:
+No se modifica todavía, tal como pediste.
+
+SUBIR / REEMPLAZAR EN LA RAÍZ:
+- index.html
+- momentos.html
 - rita.html
 - ana.html
 - arnau.html
@@ -21,7 +32,5 @@ SUBE / REEMPLAZA EN LA RAÍZ DEL REPOSITORIO:
 - horten.html
 - tamara.html
 
-Si momentos.html y sus fotos ya están subidos y funcionan, NO hace falta volver a subirlos.
-Si no, este paquete también los incluye.
-
-No se modifica index.html.
+Si las imágenes de Momentos y las imágenes 2046 ya están en GitHub, no hace falta
+volver a subirlas. El ZIP las incluye solo como copia de seguridad.
