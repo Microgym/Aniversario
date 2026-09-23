@@ -1,0 +1,14 @@
+RINFRESCO · VERSIÓN EXTERNA EN ESPAÑOL · FINAL
+
+MEJORAS:
+- Nuevo bloque “Qué hacemos hoy”.
+- Perfumería, Alimentación, Droguería y Bebidas.
+- Frase final: “Por los próximos 20 años haciendo negocio juntos.”
+- Mantiene separación total respecto al index.html interno.
+
+Subir/reemplazar en la raíz:
+- 20anos.html
+- clientes.html
+- proveedores.html
+
+Las imágenes solo hace falta subirlas si aún no están en el repositorio.

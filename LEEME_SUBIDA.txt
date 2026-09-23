@@ -1,4 +1,9 @@
-RINFRESCO · ZONA EXTERNA CON SOCIOS Y EQUIPO
+RINFRESCO · ZONA EXTERNA CON SOCIOS Y EQUIPO · V2
+
+Cambio añadido en 20anos.html:
+- Se incorpora que actualmente Rinfresco comercializa perfumería,
+  alimentación, droguería y, por supuesto, bebidas.
+- También se refleja en el hito de 2026.
 
 Subir al directorio raíz:
 - 20anos.html
@@ -11,11 +16,6 @@ Subir al directorio raíz:
 - almacen.jpg
 
 logo20.png ya debe existir en el repositorio.
-
-IMPORTANTE:
-La foto del equipo es una composición provisional hecha con los retratos actuales.
-Cuando tengáis la foto oficial de los 14, bastará con sustituir
-equipo_rinfresco_2026.jpg manteniendo el mismo nombre.
 
 clientes.html y proveedores.html solo enlazan a 20anos.html.
 No dan acceso a index.html.

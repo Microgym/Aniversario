@@ -1,21 +1,16 @@
-RINFRESCO · ENGLISH EXTERNAL VERSION
+RINFRESCO · ENGLISH EXTERNAL VERSION · CORRECTED
 
-Upload these files to the ROOT of the same GitHub repository:
-- 20years.html
+FIXES:
+1. Removed the white rectangle that appeared in the blue quote section
+   of clients.html and suppliers.html.
+2. Added a return button to 20years.html.
+   - If opened from clients.html: “← Back to customers”
+   - If opened from suppliers.html: “← Back to suppliers”
+3. clients.html and suppliers.html now pass their origin to 20years.html.
+
+UPLOAD / REPLACE IN THE ROOT:
 - clients.html
 - suppliers.html
-- logo20.png
-- miguel.jpg
-- alberto.jpg
-- equipo_rinfresco_2026.jpg
-- cash_valencia.jpg
-- almacen.jpg
+- 20years.html
 
-English URLs:
-https://microgym.github.io/Aniversario/clients.html
-https://microgym.github.io/Aniversario/suppliers.html
-https://microgym.github.io/Aniversario/20years.html
-
-These pages do NOT link to the internal index.html.
-The team image is temporary and can later be replaced by keeping the same filename:
-equipo_rinfresco_2026.jpg
+The images do not need to be uploaded again if they are already there.
