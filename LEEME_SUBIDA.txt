@@ -1,36 +1,23 @@
-RINFRESCO · NAVEGACIÓN CORREGIDA
+RINFRESCO · MOMENTOS DEL EQUIPO · V5
 
-ESTE PAQUETE CORRIGE EL FALLO DE “VOLVER A MI PÁGINA”.
+NUEVAS INCORPORACIONES:
+- SIAL / feria internacional
+- Colonia de noche
+- Navidad en la oficina (3 fotos)
+- Sección especial DANA 2024 (3 fotos)
 
-YA NO SE USA EL HISTORIAL DEL NAVEGADOR.
-Ahora cada empleado viaja con su identidad en la URL:
+La DANA se ha tratado con un tono más sobrio y respetuoso que el resto de la galería.
 
-rita.html
-→ index.html?from=rita
-→ momentos.html?from=rita
-→ index.html?from=rita
-→ rita.html
+PARA ACTUALIZAR GITHUB:
+1. Sustituye momentos.html.
+2. Sube estos nuevos JPG a la raíz:
+   - colonia_noche.jpg
+   - navidad_grupo.jpg
+   - navidad_detalle.jpg
+   - dana_1.jpg
+   - dana_2.jpg
+   - dana_3.jpg
+   - navidad_arbol.jpg
+   - sial_paris.jpg
 
-Por tanto, “Volver a mi página” vuelve SIEMPRE a la página personal correcta,
-aunque el empleado haya pasado antes por Momentos.
-
-VERO:
-No se modifica todavía, tal como pediste.
-
-SUBIR / REEMPLAZAR EN LA RAÍZ:
-- index.html
-- momentos.html
-- rita.html
-- ana.html
-- arnau.html
-- eva.html
-- gemma.html
-- laura.html
-- nacho.html
-- amparo.html
-- cristina.html
-- horten.html
-- tamara.html
-
-Si las imágenes de Momentos y las imágenes 2046 ya están en GitHub, no hace falta
-volver a subirlas. El ZIP las incluye solo como copia de seguridad.
+No hace falta volver a subir las fotos antiguas si ya están.
