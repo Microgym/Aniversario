@@ -32,6 +32,14 @@
 .founders20 .final span{display:block;color:#c99b20;margin-top:8px}
 @media(max-width:620px){.founders20{padding:72px 18px}.founders20 .people{gap:10px}.founders20 figure{border-radius:14px}.founders20 figcaption{font-size:18px;padding:35px 12px 13px}.founders20 .facts{padding:24px 8px}}
 
+.turning-points{background:#f5f1e8}
+.turning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.turning-card{background:#fff;border-radius:22px;padding:28px;border:1px solid rgba(19,39,91,.1);box-shadow:0 10px 30px rgba(19,39,91,.05)}
+.turning-card .tyear{font-weight:900;color:var(--gold);letter-spacing:.15em;font-size:12px}
+.turning-card h3{font-size:28px;line-height:1.08;color:var(--blue);margin:10px 0 14px}
+.turning-card p{color:#5e6879;line-height:1.65;margin:0}
+.turning-quote{font-family:Georgia,serif;font-size:clamp(28px,4vw,42px);line-height:1.25;color:var(--blue);text-align:center;max-width:900px;margin:38px auto 0}
+@media(max-width:760px){.turning-grid{grid-template-columns:1fr}}
 .future-comic{background:#fff;padding:88px 20px 96px;text-align:center;color:#13275b}
 .future-comic .wrap{max-width:1180px;margin:0 auto}
 .future-comic .ey{font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#c99b20}
@@ -43,7 +51,15 @@
 .future-comic img{display:block;width:100%;height:auto;border-radius:20px;box-shadow:0 18px 55px rgba(19,39,91,.16)}
 .future-comic .caption{margin:16px auto 0;font-size:13px;color:#8b91a0}
 @media(max-width:650px){
-  .future-comic{padding:70px 14px 78px}
+  .turning-points{background:#f5f1e8}
+.turning-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.turning-card{background:#fff;border-radius:22px;padding:28px;border:1px solid rgba(19,39,91,.1);box-shadow:0 10px 30px rgba(19,39,91,.05)}
+.turning-card .tyear{font-weight:900;color:var(--gold);letter-spacing:.15em;font-size:12px}
+.turning-card h3{font-size:28px;line-height:1.08;color:var(--blue);margin:10px 0 14px}
+.turning-card p{color:#5e6879;line-height:1.65;margin:0}
+.turning-quote{font-family:Georgia,serif;font-size:clamp(28px,4vw,42px);line-height:1.25;color:var(--blue);text-align:center;max-width:900px;margin:38px auto 0}
+@media(max-width:760px){.turning-grid{grid-template-columns:1fr}}
+.future-comic{padding:70px 14px 78px}
   .future-comic .intro{font-size:16px}
   .future-comic img{border-radius:12px}
 }
@@ -98,6 +114,34 @@
 <button onclick="story('poliza',this)">40.000 €</button><button onclick="story('nombre',this)">El nombre Rinfresco</button><button onclick="story('cash',this)">Cash Valencia</button><button onclick="story('tinder',this)">Entrevista / Tinder</button><button onclick="story('media',this)">Media Market</button><button onclick="story('espetos',this)">Espetos</button><button onclick="story('boludo',this)">“Boludo”</button><button onclick="story('hortensia',this)">La hija de Juan Roig</button><button onclick="story('te',this)">El té</button><button onclick="story('silencio',this)">El silencio</button><button onclick="story('trios',this)">Futuros tríos</button>
 </div><article class="storyCard" id="storyCard"><h3 id="storyTitle"></h3><p id="storyText"></p></article>
 <div class="final14">SOMOS 14.</div><p class="quote">Y en un equipo así cada uno cuenta de verdad.</p><p class="body">Aquí no sobra nadie y se nota cuando alguien falta.</p></div></section>
+
+<section class="turning-points">
+  <div class="wrap">
+    <div class="ey gold">También hubo momentos difíciles</div>
+    <h2>No todo fueron anécdotas y celebraciones.</h2>
+    <p class="body">En veinte años también hubo golpes que obligaron a reaccionar, cambiar de rumbo y seguir adelante.</p>
+    <div class="turning-grid">
+      <article class="turning-card">
+        <div class="tyear">2020 · COVID</div>
+        <h3>Cuando el mercado se paró.</h3>
+        <p>Gran parte de nuestras ventas dependía de la hostelería. Llegamos a firmar un ERTE, pero pudimos anularlo pocos días después al reinventarnos con mascarillas, geles y test de antígenos. También obtuvimos la licencia para distribuir productos sanitarios.</p>
+      </article>
+      <article class="turning-card">
+        <div class="tyear">2023 · INCENDIO</div>
+        <h3>Casi 400.000 € en producto.</h3>
+        <p>Un grave incendio en el almacén de un colaborador destruyó producto de Rinfresco preparado para servir. Tocó reorganizar la operativa, buscar soluciones y continuar.</p>
+      </article>
+      <article class="turning-card">
+        <div class="tyear">2024 · DANA</div>
+        <h3>Cuando trabajar fue lo de menos.</h3>
+        <p>La DANA golpeó muy cerca de nosotros y afectó a personas de nuestro equipo y a nuestro entorno. Fueron días de preocupación, ayuda y recuperación.</p>
+      </article>
+    </div>
+    <p class="turning-quote">“También hemos llegado hasta aquí por cómo reaccionamos cuando las cosas se complicaron.”</p>
+    <p style="text-align:center;margin-top:28px"><a class="action" id="hardMomentsLink" href="momentos.html" style="text-decoration:none;display:inline-block;background:var(--blue);color:#fff">Ver estos momentos →</a></p>
+  </div>
+</section>
+
 <section class="soft"><div class="wrap" style="text-align:center"><div class="ey gold">25 de septiembre de 2026</div><h2>Discurso del 20º aniversario</h2><p class="body">La historia completa, contada con humor, nostalgia y emoción.</p><button class="action" onclick="toggleSpeech(this)" style="background:var(--blue)!important;color:#fff!important">Leer el discurso completo</button>
 <article class="speech" id="speech"><div class="ey gold">20 años de Rinfresco · 25 de septiembre de 2026</div><p>Buenos días. Hoy nos hemos juntado, no para hablar de SAP, ruta, pedidos…, sino para celebrar por todo lo alto el 20.º aniversario de la empresa que, como nos imaginamos que sabéis, nació el 29 de septiembre de 2006 (por cierto, día de San Miguel).</p><p>Hemos venido a celebrar, con una mezcla de humor, nostalgia y emoción, algo que ni Alberto ni yo podríamos haber imaginado hace 20 años que conseguiríamos. Nosotros solo queríamos jubilarnos a los 40; como veis, se nos ha pasado el arroz. Aun así, el tiempo te enseña que hay cosas más importantes que el dinero y una de ellas es sentirse responsable de la gente que dejas entrar en tu empresa, aunque a veces los tirarías a todos por la ventana de alguna de las tantas oficinas que hemos tenido… Y tendremos.</p><p>Empezamos hace 20 años con una visita a la notaría de un gran amigo de la familia; ahí nos presentamos Alberto, Ana y yo…, sin un euro, pero con 40.000 euros de póliza TOTALMENTE AVALADA, que en aquel momento parecía muchísimo dinero y ahora sabemos que era más bien un acto de fe… o directamente inconsciencia bien gestionada.</p><p>Empezamos también con un nombre, Rinfresco, convencidos de que significaba «refresco» en italiano… y luego resultó que no. No volváis a fiaros de un amigo que dice que sabe un idioma porque haya estado un año de Erasmus. Pero oye, el nombre se quedó y aquí seguimos 20 años después.</p><p>En estos años ha pasado de todo; y cuando digo que ha pasado de todo no me refiero solo a anécdotas, no; me refiero a que ha pasado cada personaje (¡os incluyo a todos!).</p><p>Por orden:</p><p>Alguna que, al poco tiempo de entrar, pensaba que iba a dedicar más tiempo a arreglar bolis rotos y apagar fuegos que a hacer de administrativa propiamente dicha, sin olvidarnos de sus meses como cajera en Cash Valencia. Unos meses más y la nombran ministra de Igualdad de Podemos.</p><p>Entrevistas en cafeterías, que alguna pensó que venía a una cita de Tinder y no a una entrevista de trabajo. Y, por cierto, fue a la entrevista… A ver si se llevó un chasco cuando se le ofreció el puesto y no una cerveza o una cena.</p><p>¿Qué decir de nuestro portal de empleo? Hay gente que busca en multinacionales con nombres ingleses que suenan superprofesionales y muy «cool»… ¡INFELICES! ¡Donde esté Media Markt! Eso sí es un gran portal de empleo. ¡Fuimos listos y compramos una promoción de 3! Ya podría haber sido en los días sin IVA… pero no, ¡mucho le gusta a FRÁUDEZ sablearnos a todos!</p><p>Y, de repente, Andalucía; se presenta uno en la entrevista como si viniese de hacer espetos en Málaga; y lo mejor es que sigue así, pegando gritos como si tuviese que escucharle el guiri de la playa. No sé por qué, pero cuando veo «La que se avecina» y veo al espetero de playa me dan unas ganas de vender Heineken en China.</p><p>Y llegó el momento de la internacionalización; para ser sinceros, creíamos que era española, pero que tenía problemas con las expresiones; no entendíamos la mitad de las cosas que decía, nos mirábamos, hacíamos cábalas, pero ¿cómo íbamos a pensar que una argentina solicitase un empleo que no fuera de psicóloga? Cuando oímos «boludo» caímos en que estábamos internacionalizando la empresa. Igual, si la hubiésemos entendido en el primer momento, su incorporación hubiese sido antes; pero bueno, como se ha demostrado a veces (El Padrino II), en ocasiones las segundas partes son mejores que la primera. En nuestro caso, tenemos dos segundas partes que son infinitamente mejores que la primera.</p><p>¿Y cuándo recibimos el CV de la hija de Juan Roig? Fue al poco tiempo de la visita que nos hizo y pensamos: «¡Joder! ¡Pues sí que le ha gustado Rinfresco y nos manda a su hija para terminar comprando la empresa!». Pero no, no era esa Hortensia. Nosotros, que le habíamos organizado una formación por todos los departamentos: administración, droguería, bebidas… Pues eso hicimos: ale, a pasar por todos los sitios.</p><p>¿Y la mayor consumidora de té de Europa y, probablemente, de toda Asia? Se ha visto al responsable de compras de té de Mercadona comprando un barco de 20 metros desde que Ana se incorporó a Rinfresco. El día que grabe los pedidos en SAP como prepara los tés, ¡la hacemos gerente sin presentarse ni nada!</p><p>Amparo, llevas menos de un año y tengo que decirte que no sabes CÓMO AGRADEZCO TU DISCRECIÓN Y TU SILENCIO. Dios, ¡lo que pagaría por sentarme en tu mesa!</p><p>En los últimos meses (y semanas) se han incorporado dos más: Cristina y Arnau. Solo os diré dos cosas: una, en Navidad os toca hablar (a ti también, Amparo). Podríais ensayar un trío, pero no de los que está imaginando ahora Nacho, no, de esos no. Y dos, ¡los nuevos pagan las copas!</p><p>Por supuesto, no nos queremos olvidar de todos los que han pasado por Rinfresco; algunos no están porque se han buscado su camino y estamos seguros de que Rinfresco les ha ayudado; otros no están porque no han podido encajar con nosotros. Es ley de vida y es el mundo laboral, y siempre será así. Gracias a todos, incluso a los que duraron 8 horas o, mejor aún, a los que ni llegaron a subir por el ascensor.</p><p>Y con estos mimbres aquí seguimos, más fuertes que nunca y con una perspectiva, sin ninguna duda, mucho mejor que la de hace 20 años. Nos quedamos cortos: infinitamente mejor. Y sería una pena no aprovechar la situación de la que partimos ahora. Porque, si algo hemos aprendido en estos 20 años, es que hemos llegado hasta aquí por apostar por este equipo y por tener constancia, incluso en los momentos en los que no tenemos ganas de nada.</p><p>Hoy somos 14 personas y, en un equipo así, cada uno cuenta de verdad. Aquí no sobra nadie y se nota cuando alguien falta.</p><p>No sabemos cómo serán los próximos 20 años, pero sí sabemos cómo queremos trabajarlos: con sentido común, con profesionalidad, con lealtad a la empresa, con cercanía y sin perder lo que nos ha traído hasta aquí.</p><p>Gracias por el trabajo, por la implicación y por estar ahí incluso cuando las cosas se complican.</p><p>Vamos a brindar por esos 40.000 euros iniciales, por el nombre mal traducido, por las entrevistas raras, por los bolis arreglados, por las traducciones simultáneas improvisadas, por los espetos, por Media Markt, por la hija de Juan Roig, por el té (que se convierte en tequilas en Vessel), por el silencio y por los futuros tríos.</p><p>Gracias y feliz 20.º aniversario.</p></article></div></section>
 <section class="future-comic" id="rinfresco2046">
@@ -161,6 +205,7 @@ function toggleComic2046(btn){
 
   const backBtn = document.getElementById('backToEmployee');
   const momentsLink = document.getElementById('momentsLink');
+  const hardMomentsLink = document.getElementById('hardMomentsLink');
 
   if (from && employees.has(from)) {
     if (backBtn) {
@@ -168,12 +213,12 @@ function toggleComic2046(btn){
       backBtn.classList.add('show');
       backBtn.textContent = '← Volver a mi página';
     }
-    if (momentsLink) {
-      momentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
-    }
+    if (momentsLink) momentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
+    if (hardMomentsLink) hardMomentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
   } else {
     if (backBtn) backBtn.classList.remove('show');
     if (momentsLink) momentsLink.href = 'momentos.html';
+    if (hardMomentsLink) hardMomentsLink.href = 'momentos.html';
   }
 })();
 </script>
