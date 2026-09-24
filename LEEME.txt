@@ -1,20 +1,13 @@
-RINFRESCO · 12 CARTAS DEFINITIVAS
+ARNAU · PRIMEROS PEDIDOS
 
-Incluye las 12 páginas:
-vero, rita, ana, arnau, eva, gemma, laura, nacho, amparo, cristina, horten y tamara.
+Se ha añadido un bloque nuevo:
+- Primeros pedidos: 79.440 €
+- Todavía no facturados, pero ya cerrados.
+- En apenas tres semanas.
 
-Se ha cambiado únicamente el texto de las cartas.
-Se mantiene:
-- el formato visual actual de la app;
-- el logo que ya pone la página;
-- fotografías;
-- sorpresa 2046;
-- botones;
-- navegación entre páginas;
-- la nueva imagen 2046 de Rita (rita_2046_nueva.png).
+También se ha ajustado ligeramente el texto introductorio para que refleje que ya ha empezado a escribir sus primeras líneas en Rinfresco.
 
-Los textos se han trasladado tal como aparecen en los Word enviados, sin reescribirlos.
+No se ha tocado la carta definitiva ni el resto de la página.
 
-PARA ACTUALIZAR
-Sustituye en GitHub estos 12 archivos HTML.
-No es necesario volver a subir imágenes para este cambio.
+PARA ACTUALIZAR:
+Sustituye únicamente arnau.html en GitHub.
