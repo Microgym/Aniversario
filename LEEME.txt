@@ -1,13 +1,15 @@
-ARNAU · PRIMEROS PEDIDOS
+LAURA · NUEVA 2046 + CERCANÍA
 
-Se ha añadido un bloque nuevo:
-- Primeros pedidos: 79.440 €
-- Todavía no facturados, pero ya cerrados.
-- En apenas tres semanas.
+He hecho dos cambios:
 
-También se ha ajustado ligeramente el texto introductorio para que refleje que ya ha empezado a escribir sus primeras líneas en Rinfresco.
+1. La imagen 2046 usa un nombre NUEVO:
+   laura_2046_nueva.png
+   Esto evita que GitHub o el navegador siga mostrando la imagen antigua por caché.
 
-No se ha tocado la carta definitiva ni el resto de la página.
+2. "POR ENCIMA DE TODO" pasa de FORTALEZA a CERCANÍA.
 
-PARA ACTUALIZAR:
-Sustituye únicamente arnau.html en GitHub.
+PARA ACTUALIZAR EN GITHUB:
+- sustituye laura.html
+- sube laura_2046_nueva.png
+
+No hace falta borrar laura_2046.png; simplemente dejará de usarse.
