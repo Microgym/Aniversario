@@ -1,14 +1,19 @@
-ARNAU · CARTA CORREGIDA
+EVA · CAMBIO FINAL EN LA APP
 
-Se ha sustituido únicamente el texto de la carta por el Word corregido.
+Incluye:
+- eva.html actualizado
+- eva_nueva.jpg (foto principal nueva)
+- eva_2046_final.png (montaje 2026 / 2046 aprobado)
 
-Se mantiene:
-- el bloque de primeros pedidos por 79.440 €;
-- el formato actual;
-- la sorpresa 2046;
-- imágenes;
-- botones;
-- navegación.
+La página mantiene:
+- la carta definitiva de Eva
+- sus textos
+- “Por encima de todo: CONSTRUIR EMPRESA”
+- navegación y botones
 
-PARA ACTUALIZAR:
-Sustituye únicamente arnau.html en GitHub.
+PARA ACTUALIZAR EN GITHUB:
+1. Sustituye eva.html
+2. Sube eva_nueva.jpg
+3. Sube eva_2046_final.png
+
+No hace falta borrar los archivos antiguos.
