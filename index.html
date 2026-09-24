@@ -148,7 +148,6 @@
       </article>
     </div>
     <p class="turning-quote">“También hemos llegado hasta aquí por cómo reaccionamos cuando las cosas se complicaron.”</p>
-    <p style="text-align:center;margin-top:28px"><a class="action" id="hardMomentsLink" href="momentos.html" style="text-decoration:none;display:inline-block;background:var(--blue);color:#fff">Ver estos momentos →</a></p>
   </div>
 </section>
 
@@ -239,7 +238,6 @@ function toggleComic2046(btn){
 
   const backBtn = document.getElementById('backToEmployee');
   const momentsLink = document.getElementById('momentsLink');
-  const hardMomentsLink = document.getElementById('hardMomentsLink');
 
   if (from && employees.has(from)) {
     if (backBtn) {
@@ -248,11 +246,9 @@ function toggleComic2046(btn){
       backBtn.textContent = '← Volver a mi página';
     }
     if (momentsLink) momentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
-    if (hardMomentsLink) hardMomentsLink.href = 'momentos.html?from=' + encodeURIComponent(from);
   } else {
     if (backBtn) backBtn.classList.remove('show');
     if (momentsLink) momentsLink.href = 'momentos.html';
-    if (hardMomentsLink) hardMomentsLink.href = 'momentos.html';
   }
 })();
 </script>

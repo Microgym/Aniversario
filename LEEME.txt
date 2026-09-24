@@ -1,13 +1,11 @@
-PRUEBA · CARTA DE VERO + DISCURSO FINAL CORREGIDOS
+RINFRESCO · INDEX SIN BOTÓN EN MOMENTOS DIFÍCILES
 
-Este paquete mantiene el formato actual de la app y solo sustituye los textos.
+Cambio realizado:
+- Se ha quitado únicamente el botón "Ver estos momentos →" que aparecía debajo
+  del bloque COVID / incendio / DANA.
+- Se mantiene el botón general "Ver nuestros momentos →" de la navegación.
+- Se mantiene el discurso corregido y su formato carta.
+- No se cambia ningún otro contenido.
 
-Archivos incluidos:
-- vero.html  -> sustituye la carta de Vero por el texto del Word
-- index.html -> sustituye el discurso final por el texto corregido del Word
-
-Qué hacer:
-1. Sustituye vero.html en tu carpeta/proyecto actual de empleados.
-2. Sustituye index.html en la raíz de la historia común.
-3. Sube los cambios a GitHub.
-4. Si ves la versión antigua, haz recarga fuerte del navegador.
+Para actualizar:
+Sustituye solo index.html en GitHub.
