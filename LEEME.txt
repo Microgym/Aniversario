@@ -1,0 +1,10 @@
+CORRECCIÓN DEFINITIVA DE ORIENTACIÓN
+
+Sustituye en GitHub:
+- viaje_ascensor.jpg
+- viaje_avion.jpg
+
+Estas versiones tienen la rotación aplicada físicamente a los píxeles,
+sin depender de metadatos EXIF.
+
+No hace falta cambiar momentos.html.
