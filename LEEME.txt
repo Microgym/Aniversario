@@ -1,10 +1,13 @@
-CORRECCIÓN DEFINITIVA DE ORIENTACIÓN
+RITA · NUEVA IMAGEN 2046
 
-Sustituye en GitHub:
-- viaje_ascensor.jpg
-- viaje_avion.jpg
+El problema es que GitHub / navegador puede seguir mostrando la imagen antigua
+cuando reutilizamos exactamente el mismo nombre.
 
-Estas versiones tienen la rotación aplicada físicamente a los píxeles,
-sin depender de metadatos EXIF.
+Para evitarlo, esta versión usa un nombre NUEVO:
+rita_2046_nueva.png
 
-No hace falta cambiar momentos.html.
+SUBE / SUSTITUYE EN GITHUB:
+- rita.html
+- rita_2046_nueva.png
+
+No hace falta borrar rita_2046.png; simplemente dejará de usarse.
