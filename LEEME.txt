@@ -1,11 +1,20 @@
-RINFRESCO · INDEX SIN BOTÓN EN MOMENTOS DIFÍCILES
+RINFRESCO · 12 CARTAS DEFINITIVAS
 
-Cambio realizado:
-- Se ha quitado únicamente el botón "Ver estos momentos →" que aparecía debajo
-  del bloque COVID / incendio / DANA.
-- Se mantiene el botón general "Ver nuestros momentos →" de la navegación.
-- Se mantiene el discurso corregido y su formato carta.
-- No se cambia ningún otro contenido.
+Incluye las 12 páginas:
+vero, rita, ana, arnau, eva, gemma, laura, nacho, amparo, cristina, horten y tamara.
 
-Para actualizar:
-Sustituye solo index.html en GitHub.
+Se ha cambiado únicamente el texto de las cartas.
+Se mantiene:
+- el formato visual actual de la app;
+- el logo que ya pone la página;
+- fotografías;
+- sorpresa 2046;
+- botones;
+- navegación entre páginas;
+- la nueva imagen 2046 de Rita (rita_2046_nueva.png).
+
+Los textos se han trasladado tal como aparecen en los Word enviados, sin reescribirlos.
+
+PARA ACTUALIZAR
+Sustituye en GitHub estos 12 archivos HTML.
+No es necesario volver a subir imágenes para este cambio.
