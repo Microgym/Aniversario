@@ -1,23 +1,16 @@
-RINFRESCO · MOMENTOS DEL EQUIPO · V5
+RINFRESCO · MOMENTOS DEL EQUIPO · V6 COVID
 
-NUEVAS INCORPORACIONES:
-- SIAL / feria internacional
-- Colonia de noche
-- Navidad en la oficina (3 fotos)
-- Sección especial DANA 2024 (3 fotos)
-
-La DANA se ha tratado con un tono más sobrio y respetuoso que el resto de la galería.
+NOVEDAD:
+Se amplía la sección “2020 también dejó sus propias fotos” con:
+- mascarillas infantiles
+- gel hidroalcohólico
+- mascarillas higiénicas Yucai
 
 PARA ACTUALIZAR GITHUB:
 1. Sustituye momentos.html.
-2. Sube estos nuevos JPG a la raíz:
-   - colonia_noche.jpg
-   - navidad_grupo.jpg
-   - navidad_detalle.jpg
-   - dana_1.jpg
-   - dana_2.jpg
-   - dana_3.jpg
-   - navidad_arbol.jpg
-   - sial_paris.jpg
+2. Sube estos 3 nuevos JPG a la raíz:
+   - covid_mascarillas_ninos.jpg
+   - covid_hidrogel.jpg
+   - covid_mascarilla_yucai.jpg
 
-No hace falta volver a subir las fotos antiguas si ya están.
+El resto de archivos no hace falta volver a subirlos si ya están.
