@@ -1,15 +1,14 @@
-LAURA · NUEVA 2046 + CERCANÍA
+ARNAU · CARTA CORREGIDA
 
-He hecho dos cambios:
+Se ha sustituido únicamente el texto de la carta por el Word corregido.
 
-1. La imagen 2046 usa un nombre NUEVO:
-   laura_2046_nueva.png
-   Esto evita que GitHub o el navegador siga mostrando la imagen antigua por caché.
+Se mantiene:
+- el bloque de primeros pedidos por 79.440 €;
+- el formato actual;
+- la sorpresa 2046;
+- imágenes;
+- botones;
+- navegación.
 
-2. "POR ENCIMA DE TODO" pasa de FORTALEZA a CERCANÍA.
-
-PARA ACTUALIZAR EN GITHUB:
-- sustituye laura.html
-- sube laura_2046_nueva.png
-
-No hace falta borrar laura_2046.png; simplemente dejará de usarse.
+PARA ACTUALIZAR:
+Sustituye únicamente arnau.html en GitHub.
