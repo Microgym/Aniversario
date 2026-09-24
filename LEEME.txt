@@ -1,13 +1,13 @@
-RITA · NUEVA IMAGEN 2046
+PRUEBA · CARTA DE VERO + DISCURSO FINAL CORREGIDOS
 
-El problema es que GitHub / navegador puede seguir mostrando la imagen antigua
-cuando reutilizamos exactamente el mismo nombre.
+Este paquete mantiene el formato actual de la app y solo sustituye los textos.
 
-Para evitarlo, esta versión usa un nombre NUEVO:
-rita_2046_nueva.png
+Archivos incluidos:
+- vero.html  -> sustituye la carta de Vero por el texto del Word
+- index.html -> sustituye el discurso final por el texto corregido del Word
 
-SUBE / SUSTITUYE EN GITHUB:
-- rita.html
-- rita_2046_nueva.png
-
-No hace falta borrar rita_2046.png; simplemente dejará de usarse.
+Qué hacer:
+1. Sustituye vero.html en tu carpeta/proyecto actual de empleados.
+2. Sustituye index.html en la raíz de la historia común.
+3. Sube los cambios a GitHub.
+4. Si ves la versión antigua, haz recarga fuerte del navegador.
