@@ -43,6 +43,18 @@ h2{font-size:clamp(38px,7vw,66px);line-height:1;letter-spacing:-.045em;color:var
 .lightbox img{max-width:min(94vw,1400px);max-height:88vh;object-fit:contain;border-radius:12px}
 .lightbox-close{position:absolute;right:20px;top:16px;border:0;background:#fff;color:var(--blue);width:42px;height:42px;border-radius:50%;font-size:25px;cursor:pointer}
 @media(max-width:650px){section{padding:68px 18px}.gallery{columns:1}.covid-story{grid-template-columns:1fr;padding:20px}}
+
+.cash-story{margin-top:38px;display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:stretch}
+.cash-feature{background:var(--blue);color:#fff;border-radius:26px;padding:34px;display:flex;flex-direction:column;justify-content:center}
+.cash-feature .kicker{color:#e5bc4a}
+.cash-feature h3{font-family:Georgia,serif;font-size:clamp(31px,4.8vw,48px);line-height:1.08;margin:10px 0 18px;color:#fff}
+.cash-feature p{font-size:17px;line-height:1.72;color:#e8ecf5;margin:0}
+.cash-feature .amount{font-family:Georgia,serif;font-size:clamp(38px,6vw,64px);line-height:1;color:#fff;margin:28px 0 8px}
+.cash-feature .amount-label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:900;color:#e5bc4a}
+.cash-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.cash-grid .photo-card{margin:0}
+@media(max-width:760px){.cash-story{grid-template-columns:1fr}.cash-grid{grid-template-columns:1fr}.cash-feature{padding:26px}}
+
 </style>
 </head>
 <body>
@@ -204,6 +216,57 @@ h2{font-size:clamp(38px,7vw,66px);line-height:1;letter-spacing:-.045em;color:var
         <figcaption>Una foto de grupo, un árbol y otro año compartido.</figcaption>
       </figure>
 </div>
+</section>
+
+
+<section id="cash-valencia">
+  <div class="wrap">
+    <div class="kicker">Cash Valencia</div>
+    <h2>Una puerta que abrió otra etapa.</h2>
+    <p class="copy">Antes de abrir hubo días de preparación, decisiones, nervios y mucho trabajo. Después llegaron los primeros clientes, las primeras ventas y esa sensación difícil de olvidar: comprobar que el proyecto empezaba a caminar de verdad.</p>
+
+    <div class="cash-grid">
+      <figure class="photo-card">
+        <button class="photo-button" type="button" aria-label="Ampliar foto de los preparativos de Cash Valencia">
+          <img src="cash_valencia_preparativos.jpg" alt="Cash Valencia durante los días previos a la apertura" loading="lazy">
+        </button>
+        <figcaption>Los días previos. Todavía faltaban cosas por terminar, pero la ilusión ya estaba dentro.</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <button class="photo-button" type="button" aria-label="Ampliar foto de la apertura de Cash Valencia">
+          <img src="cash_valencia_apertura.jpg" alt="Interior de Cash Valencia en sus primeros días" loading="lazy">
+        </button>
+        <figcaption>La puerta abierta, el producto colocado y el proyecto, por fin, funcionando.</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <button class="photo-button" type="button" aria-label="Ampliar foto del exterior de Cash Valencia">
+          <img src="cash_valencia_exterior.jpg" alt="Exterior de Cash Valencia" loading="lazy">
+        </button>
+        <figcaption>Uno de esos momentos que entonces parecían cotidianos y hoy forman parte de la historia.</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <button class="photo-button" type="button" aria-label="Ampliar primera facturación de Cash Valencia">
+          <img src="cash_valencia_primera_facturacion.jpg" alt="Primera facturación de Cash Valencia" loading="lazy">
+        </button>
+        <figcaption>Toda gran historia tiene un primer número.</figcaption>
+      </figure>
+    </div>
+
+    <div class="cash-story">
+      <div class="cash-feature">
+        <div class="kicker">El primer día</div>
+        <h3>De preparar el local a ver aparecer las primeras cifras.</h3>
+        <p>Hoy es fácil mirar esta pantalla como un dato antiguo. Entonces significaba mucho más: era la confirmación de que todo el trabajo previo empezaba a convertirse en realidad.</p>
+        <div class="amount">6.348,66 €</div>
+        <div class="amount-label">Primera facturación del día</div>
+      </div>
+      <div class="cash-feature">
+        <div class="kicker">Mirándolo 20 años después</div>
+        <h3>Los comienzos también merecen su propio capítulo.</h3>
+        <p>Cash Valencia fue una de esas etapas que se recuerdan por lo que exigieron, por lo que enseñaron y por la ilusión con la que se vivieron. Las fotos han envejecido. El recuerdo, bastante menos.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 
