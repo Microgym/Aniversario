@@ -1,17 +1,16 @@
-RINFRESCO · EVOLUCIÓN DEL LOGO EN NUESTRA HISTORIA
-
-Se ha añadido a index.html un nuevo bloque justo después de “Los que empezaron todo”:
-
-NO SOLO EVOLUCIONAN LAS PERSONAS.
-TAMBIÉN LAS MARCAS.
+CAMBIOS V14 · COVID + NAVIDAD
 
 Incluye:
-- Logo del 10.º aniversario (2016)
-- Logo actual del 20.º aniversario (2026)
-- La frase de cierre: “Cambian las formas. La esencia permanece.”
+- momentos.html actualizado
+- covid_navidad_mascarillas.jpg
+- covid_navidad_packaging.jpg
 
-PARA ACTUALIZAR EN GITHUB:
-1. Sustituye index.html
-2. Sube logo10_aniversario.png
+Cambios realizados:
+1. Se añaden 2 imágenes nuevas en la sección COVID.
+2. Se actualiza el estilo de los pies de foto a una tipografía más elegante.
 
-No hace falta volver a subir logo20.png, ya está en la raíz de la web.
+Para subir al repositorio:
+- Sustituye momentos.html
+- Añade estas 2 imágenes nuevas:
+  - covid_navidad_mascarillas.jpg
+  - covid_navidad_packaging.jpg
