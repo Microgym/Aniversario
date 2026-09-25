@@ -1,16 +1,11 @@
-CAMBIOS V14 · COVID + NAVIDAD
+NAVEGACIÓN ALBERTO CORREGIDA
 
-Incluye:
-- momentos.html actualizado
-- covid_navidad_mascarillas.jpg
-- covid_navidad_packaging.jpg
+Se ha añadido "alberto" a la navegación robusta.
 
-Cambios realizados:
-1. Se añaden 2 imágenes nuevas en la sección COVID.
-2. Se actualiza el estilo de los pies de foto a una tipografía más elegante.
+Ahora funciona:
+Alberto → Nuestra historia → Volver a mi página → Alberto
+Alberto → Momentos → Nuestra historia → Volver a mi página → Alberto
 
-Para subir al repositorio:
-- Sustituye momentos.html
-- Añade estas 2 imágenes nuevas:
-  - covid_navidad_mascarillas.jpg
-  - covid_navidad_packaging.jpg
+PARA GITHUB:
+Sustituye index.html y momentos.html.
+Puedes sustituir también alberto.html para dejar los tres archivos sincronizados.
