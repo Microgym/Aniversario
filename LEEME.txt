@@ -1,19 +1,17 @@
-EVA · CAMBIO FINAL EN LA APP
+RINFRESCO · EVOLUCIÓN DEL LOGO EN NUESTRA HISTORIA
+
+Se ha añadido a index.html un nuevo bloque justo después de “Los que empezaron todo”:
+
+NO SOLO EVOLUCIONAN LAS PERSONAS.
+TAMBIÉN LAS MARCAS.
 
 Incluye:
-- eva.html actualizado
-- eva_nueva.jpg (foto principal nueva)
-- eva_2046_final.png (montaje 2026 / 2046 aprobado)
-
-La página mantiene:
-- la carta definitiva de Eva
-- sus textos
-- “Por encima de todo: CONSTRUIR EMPRESA”
-- navegación y botones
+- Logo del 10.º aniversario (2016)
+- Logo actual del 20.º aniversario (2026)
+- La frase de cierre: “Cambian las formas. La esencia permanece.”
 
 PARA ACTUALIZAR EN GITHUB:
-1. Sustituye eva.html
-2. Sube eva_nueva.jpg
-3. Sube eva_2046_final.png
+1. Sustituye index.html
+2. Sube logo10_aniversario.png
 
-No hace falta borrar los archivos antiguos.
+No hace falta volver a subir logo20.png, ya está en la raíz de la web.

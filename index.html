@@ -99,6 +99,57 @@
  .moments-link{top:auto;right:10px;bottom:12px;padding:10px 13px;font-size:13px}
 }
 
+
+.brand-evolution{
+  background:linear-gradient(180deg,#ffffff 0%,#f7f8fb 100%);
+  padding:92px 22px;
+  color:var(--blue);
+}
+.brand-evolution .bwrap{max-width:980px;margin:auto;text-align:center}
+.brand-evolution .bkicker{
+  font-size:11px;font-weight:800;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--gold)
+}
+.brand-evolution h2{
+  font-size:clamp(40px,8vw,72px);
+  line-height:1.02;letter-spacing:-.045em;
+  max-width:880px;margin:18px auto 24px
+}
+.brand-evolution .bintro{
+  max-width:760px;margin:0 auto 46px;
+  font-size:18px;line-height:1.75;color:#667085
+}
+.brand-evolution .logos{
+  display:grid;grid-template-columns:1fr auto 1fr;
+  align-items:center;gap:26px;max-width:900px;margin:0 auto
+}
+.brand-evolution .logo-card{
+  min-height:280px;background:#fff;border:1px solid #e7e9ef;
+  border-radius:24px;padding:28px;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  box-shadow:0 14px 38px rgba(19,39,91,.07)
+}
+.brand-evolution .logo-card img{max-width:100%;max-height:190px;object-fit:contain}
+.brand-evolution .logo-year{
+  margin-top:18px;font-size:12px;font-weight:900;
+  letter-spacing:.2em;color:var(--gold)
+}
+.brand-evolution .arrow{
+  font-size:44px;font-weight:300;color:var(--gold)
+}
+.brand-evolution .brand-close{
+  margin:42px auto 0;font-family:Georgia,serif;
+  font-size:clamp(26px,4vw,38px);line-height:1.3;
+  max-width:780px;color:var(--blue)
+}
+@media(max-width:700px){
+  .brand-evolution{padding:72px 18px}
+  .brand-evolution .logos{grid-template-columns:1fr;gap:14px}
+  .brand-evolution .arrow{transform:rotate(90deg);font-size:34px}
+  .brand-evolution .logo-card{min-height:230px;padding:22px}
+  .brand-evolution .logo-card img{max-height:155px}
+}
+
 </style></head><body><a href="#" id="backToEmployee" class="back-home">← Volver a mi página</a><a href="momentos.html" id="momentsLink" class="moments-link">Ver nuestros momentos →</a>
 <header class="cover"><div class="wrap"><img alt="Rinfresco 20 años" class="logo" src="logo20.png"/><div class="ey gold" style="margin-top:36px">2006 — 2026</div><h1>20 AÑOS<br/>DE RINFRESCO</h1><div class="goldline"></div><p class="lead">Nuestra historia.</p><p class="body">Un nombre nacido de un error. 40.000 euros. Oficinas, decisiones, anécdotas y, sobre todo, personas.</p></div></header>
 <section class="founders20" id="fundadores">
@@ -117,8 +168,33 @@
       Y veinte años por delante.
     </div>
 <p class="final">TODO EMPEZÓ CON DOS.<span>20 AÑOS DESPUÉS, SOMOS 14.</span></p>
+
 </div>
 </section>
+
+<section class="brand-evolution" id="evolucion-marca">
+  <div class="bwrap">
+    <div class="bkicker">La imagen también cuenta la historia</div>
+    <h2>No solo evolucionan las personas.<br/>También las marcas.</h2>
+    <p class="bintro">
+      Veinte años dan para cambiar muchas cosas: la empresa, el equipo, los mercados
+      y también la forma de presentarnos. La imagen ha evolucionado. La esencia sigue siendo la misma.
+    </p>
+    <div class="logos">
+      <div class="logo-card">
+        <img src="logo10_aniversario.png" alt="Rinfresco · 10 años · 2016"/>
+        <div class="logo-year">2016 · 10 AÑOS</div>
+      </div>
+      <div class="arrow" aria-hidden="true">→</div>
+      <div class="logo-card">
+        <img src="logo20.png" alt="Rinfresco · 20 años · 2026"/>
+        <div class="logo-year">2026 · 20 AÑOS</div>
+      </div>
+    </div>
+    <p class="brand-close">Cambian las formas. La esencia permanece.</p>
+  </div>
+</section>
+
 <section class="blue"><div class="wrap"><div class="ey" style="color:#e5bc4a">20 años, muchas historias</div><h2>Las anécdotas que también explican quiénes somos.</h2>
 <div class="chips">
 <button onclick="story('poliza',this)">40.000 €</button><button onclick="story('nombre',this)">El nombre Rinfresco</button><button onclick="story('cash',this)">Cash Valencia</button><button onclick="story('tinder',this)">Entrevista / Tinder</button><button onclick="story('media',this)">Media Market</button><button onclick="story('espetos',this)">Espetos</button><button onclick="story('boludo',this)">“Boludo”</button><button onclick="story('hortensia',this)">La hija de Juan Roig</button><button onclick="story('te',this)">El té</button><button onclick="story('silencio',this)">El silencio</button><button onclick="story('trios',this)">Futuros tríos</button>
