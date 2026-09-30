@@ -1,0 +1,20 @@
+CORRECCIÓN V3
+
+Ahora los cambios sí están en la página principal unificada.
+
+SUBE Y SUSTITUYE ESTOS ARCHIVOS:
+- clientes-proveedores.html
+- clients-suppliers.html
+- 20anos.html
+- 20years.html
+- clientes.html
+- proveedores.html
+- clients.html
+- suppliers.html
+
+CAMBIOS:
+1. La página principal Clientes + Proveedores muestra de forma destacada las 4 familias:
+   Bebidas · Alimentación · Perfumería · Droguería.
+2. En “Descubrir nuestros 20 años” hay botón de vuelta al inicio, arriba y abajo.
+3. No aparece Cash Valencia en la zona externa.
+4. Lo mismo en inglés.
