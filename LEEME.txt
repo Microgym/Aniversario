@@ -1,9 +1,10 @@
-RINFRESCO · CLIENTES Y PROVEEDORES UNIFICADOS
+RINFRESCO · CLIENTES + PROVEEDORES V2
 
-Nuevos enlaces:
-- Español: clientes-proveedores.html
-- English: clients-suppliers.html
+Cambios:
+- Clientes y proveedores siguen agrupados en una sola página.
+- Desde “Descubrir nuestros 20 años” se puede volver al inicio de Clientes y Proveedores, tanto arriba como al final.
+- Se ha eliminado Cash Valencia de la versión externa de los 20 años.
+- Se ha dado más protagonismo a las cuatro familias de producto: Bebidas, Alimentación, Perfumería y Droguería.
+- Mismos cambios en inglés.
 
-También se incluyen clientes.html, proveedores.html, clients.html y suppliers.html como redirecciones, para que los enlaces antiguos sigan funcionando.
-
-Sube todos los archivos de esta carpeta a la raíz del repositorio.
+Sube todos los archivos de este ZIP a la raíz del repositorio.
