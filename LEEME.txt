@@ -1,10 +1,11 @@
-RINFRESCO · CLIENTES + PROVEEDORES V2
+Cambio aplicado SOLO en Clientes/Proveedores.
 
-Cambios:
-- Clientes y proveedores siguen agrupados en una sola página.
-- Desde “Descubrir nuestros 20 años” se puede volver al inicio de Clientes y Proveedores, tanto arriba como al final.
-- Se ha eliminado Cash Valencia de la versión externa de los 20 años.
-- Se ha dado más protagonismo a las cuatro familias de producto: Bebidas, Alimentación, Perfumería y Droguería.
-- Mismos cambios en inglés.
+Fotos actualizadas:
+Laura, Ana, Nacho, Tamara y Horten.
 
-Sube todos los archivos de este ZIP a la raíz del repositorio.
+Sube a GitHub:
+- 20anos.html
+- 20years.html
+- equipo_rinfresco_2026_v2.jpg
+
+No se modifican sus páginas personales.
