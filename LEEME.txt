@@ -1,11 +1,9 @@
-NAVEGACIÓN ALBERTO CORREGIDA
+RINFRESCO · CLIENTES Y PROVEEDORES UNIFICADOS
 
-Se ha añadido "alberto" a la navegación robusta.
+Nuevos enlaces:
+- Español: clientes-proveedores.html
+- English: clients-suppliers.html
 
-Ahora funciona:
-Alberto → Nuestra historia → Volver a mi página → Alberto
-Alberto → Momentos → Nuestra historia → Volver a mi página → Alberto
+También se incluyen clientes.html, proveedores.html, clients.html y suppliers.html como redirecciones, para que los enlaces antiguos sigan funcionando.
 
-PARA GITHUB:
-Sustituye index.html y momentos.html.
-Puedes sustituir también alberto.html para dejar los tres archivos sincronizados.
+Sube todos los archivos de esta carpeta a la raíz del repositorio.
